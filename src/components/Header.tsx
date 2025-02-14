@@ -33,7 +33,7 @@ const Header = () => {
       {/* Mobile Navbar (Hamburger Menu) */}
       <div className="md:hidden flex items-center">
         <HiMenuAlt3
-          className="text-black text-3xl cursor-pointer"
+          className="text-white text-3xl cursor-pointer"
           onClick={toggleMenu} // Toggle menu on click
         />
       </div>
